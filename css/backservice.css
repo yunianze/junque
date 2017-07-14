@@ -1,0 +1,33 @@
+.rcontent {
+    width: 763px;
+}
+
+.payfree p {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.payfree .oneItem {
+    padding-top: 32px;
+}
+
+.oneItem li {
+    margin-bottom: 33px;
+    font-size: 16px;
+    color: black;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.payfree .twoItem {
+    padding-top: 32px;
+}
+
+.twoItem li {
+    margin-bottom: 33px;
+    font-size: 16px;
+    color: black;
+    list-style-type: disc;
+    list-style-position: inside;
+}

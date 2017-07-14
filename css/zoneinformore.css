@@ -1,0 +1,155 @@
+.content {
+    width: 765px;
+    float: right;
+}
+
+.xuanchuan {
+    text-align: center;
+    padding: 58px;
+    /*line-height: 142px;*/
+}
+
+.middle {
+    width: 1000px;
+    position: relative;
+    /*background-color: grey;*/
+}
+
+.turnm {
+    background: url(../images/turn1.jpg) no-repeat;
+    height: 588px;
+}
+
+.hehe {
+    position: absolute;
+    top: 84px;
+}
+
+.hehe li {
+    margin-bottom: 16px;
+}
+
+.hehe a {
+    color: #808080;
+    font-size: 14px;
+}
+
+
+/*footer*/
+
+.fot {
+    height: 287px;
+    background: #1a1a1a;
+    margin: 0 auto;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.border_nav {
+    width: 1003px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid #808080;
+}
+
+.top_nav {
+    list-style: none;
+    position: absolute;
+    top: 22px;
+    left: 30px;
+}
+
+.top_nav li {
+    float: left;
+    margin-right: 16px;
+    border-right: 1px solid #808080;
+    padding-right: 18px
+}
+
+.top_nav li a {
+    color: white;
+    font-size: 14px;
+}
+
+.fot .main {
+    /*position: absolute;
+   top:100px;
+   left:450px;*/
+    /*float: left;*/
+    /*background:blue ;*/
+    height: 189px;
+    margin: 0 auto;
+    position: relative;
+    /*padding-top:2px; */
+    /*overflow: hidden;*/
+}
+
+.main p {
+    color: #da251d;
+    font-size: 14px;
+    position: relative;
+    padding-top: 24px;
+    left: 30px;
+}
+
+.iron {
+    /*padding-left:8px; */
+    width: 18px;
+    margin-top: 15px;
+}
+
+.iron li {
+    margin-bottom: 12px;
+}
+
+.address {
+    position: absolute;
+    /*background:white;*/
+    top: 58px;
+    left: 30px;
+    font-size: 12px;
+    color: white;
+}
+
+.address li {
+    margin-bottom: 10px;
+}
+
+ul.bq {
+    margin-top: 34px;
+    color: white;
+    font-size: 12px;
+    position: relative;
+}
+
+ul.bq li {
+    float: right;
+    margin-right: 25px;
+    /*color: red;*/
+}
+
+.p2p {
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+.p2p2 {
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.erweima {
+    background: url(../images/erweima.jpg);
+    width: 132px;
+    height: 132px;
+    position: absolute;
+    top: 58px;
+    right: 0;
+    /*float:right;*/
+}
+
+
+/*footer　end*/

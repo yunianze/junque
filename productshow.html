@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css">
+    <link rel="stylesheet" type="text/css" href="css/zoneinfor.css">
+    <link rel="stylesheet" type="text/css" href="css/productshow.css">
+    <title>产品展示</title>
+</head>
+
+<body>
+    <div class=".contain">
+        <!-- 顶栏 -->
+        <div class="first">
+            <div class="main">
+                <div class="logo"></div>
+                <div class="rf">
+                    <div class="telephone"></div>
+                    <p class="p1">全国客服热线</p>
+                    <p class="p2">400-627-8627</p>
+                </div>
+            </div>
+        </div>
+        <!-- 顶栏结束 -->
+        <!-- 第二栏 -->
+        <div class="second">
+            <div class="main">
+                <ul class="nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="advertage.html">君雀优势</a></li>
+                    <li><a href="productshow.html" style="color:red;">产品展示</a></li>
+                    <li><a href="combine.html">招商加盟</a></li>
+                    <li><a href="backservice.html">售后服务</a></li>
+                    <li><a href="zoneinfornmation.html">行业资讯</a></li>
+                    <li><a href="about us.html">关于我们</a></li>
+                </ul>
+                <!-- 搜索框 -->
+                <div class="search">
+                    <input type="text" />
+                    <img src="images/fangdajing.png" width="18" height="18" alt="search">
+                </div>
+                <!-- 搜索框 结束-->
+            </div>
+        </div>
+        <!-- 第二栏结束 -->
+        <!-- 长图 -->
+        <div class="advpic" style="background: url(images/productshow.jpg) center;
+  height:252px;"></div>
+        <!-- 中部 -->
+        <div class="middle">
+            <div class="fir">
+                <div style="position:absolute;top:-63px;left:0;height:126px;width:176px;background:url(images/productshow2.jpg);"></div>
+                <p>当前位置：<a href="index.html">首页</a> > <a href="productshow.html">产品展示</a> </p>
+            </div>
+            <!-- 左列表 -->
+            <ul class="up">
+                <li class="select"><a href="javascript:void(0);">博风系列</a></li>
+                <li><a href="javascript:void(0);">博雅系列</a></li>
+                <li><a href="javascript:void(0);">博彩系列</a></li>
+                <li><a href="javascript:void(0);">E50</a></li>
+                <li><a href="javascript:void(0);">E60</a></li>
+                <li><a href="javascript:void(0);">E70</a></li>
+            </ul>
+            <script src="js/jquery.min.js"></script>
+            <script>
+             $(document).ready(function() {
+                $(" .up li").mouseover(function() {
+                    $("li").siblings().removeClass("select");
+                    $(this).addClass("select").find("a").css("color","white");
+                    $(this).siblings().find("a").css("color","black");
+
+                });
+            });
+            </script>
+            <!-- 左列表 结束-->
+            <div class="companynews">
+                <img src="images/bofeng.jpg" alt="">
+                <ul class="pics">
+                    <li><img src="images/pic1.jpg" width="249" height="255" alt="pic"></li>
+                    <li><img src="images/pic2.jpg" width="249" height="255" alt="pic"></li>
+                    <li><img src="images/pic3.jpg" width="249" height="255" alt="pic"></li>
+                    <li><img src="images/pic4.jpg" width="249" height="255" alt="pic"></li>
+                    <li><img src="images/pic5.jpg" width="249" height="255" alt="pic"></li>
+                    <li><img src="images/pic6.jpg" width="249" height="255" alt="pic"></li>
+                </ul>
+                <div class="turnpage">
+                    <p>共有 7 条记录 当前第 1 页/共 1 页 每页显示7条</p>
+                    <ol>
+                        <li>首页</li>
+                        <li>上一页</li>
+                        <li>下一页</li>
+                        <li>尾页</li>
+                    </ol class="oltion">
+                    <label for="">跳转至
+                        <select name="tuenpageamount" style="border:1px solid black; border-radius:3px;" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                        </select>
+                        页</label>
+                </div>
+            </div>
+        </div>
+        <!-- 中部结束 -->
+        <div style="clear:both"></div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="border_nav">
+                <ul class="top_nav">
+                    <li><a href="javascript:void(0);">首页</a></li>
+                    <li><a href="javascript:void(0);">关于我们</a></li>
+                    <li><a href="javascript:void(0);">产品展示</a></li>
+                    <li><a href="javascript:void(0);">新闻资讯</a></li>
+                    <li><a href="javascript:void(0);">全国招商</a></li>
+                    <li><a href="javascript:void(0);">联系方式</a></li>
+                    <li><a href="javascript:void(0);">售后服务</a></li>
+                    <li style="border:0;"><a href="javascript:void(0);">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <p>杭州君雀机电有限公司</p>
+                <ul class="iron">
+                    <li class="i1" style="background:url(images/littleicon_03.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i2" style="background:url(images/littleicon_06.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i3" style="background:url(images/littleicon_08.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i4" style="background:url(images/littleicon_10.png) no-repeat center;width:18px;height:14px;"></li>
+                </ul>
+                <ol class="address">
+                    <li>地址: 杭州市萧山区宁国镇经济开发区</li>
+                    <li>全国客服热线： 400-627-8627</li>
+                    <li>电话: 15057181911</li>
+                    <li>传真: 0571-82735581</li>
+                </ol>
+               <ul class="banqun">
+                    <li><a href="index.html">COPYRIGHT © 上海君雀实业有限公司</a></li>
+                    <li><a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=DGVGXyJhgNhvZxDkfthd3k32V9Q3pywQ7VJnWR6cGn076yzJbv0n!-1385279581" target="_blank">浙ICP备10201382号-2</a></li>
+                    <li><a href="http://www.5iss.cc/" target="_blank">技术支持：云S-商帅科技</a></li>
+                </ul>
+                <div class="erweima"></div>
+            </div>
+        </div>
+        <!-- footer end -->
+        <!-- 中部结束 -->
+    </div>
+</body>
+
+</html>

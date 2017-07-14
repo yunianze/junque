@@ -1,0 +1,125 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    color: #808080;
+    height: 1000px;
+    font-size: 12px;
+}
+
+a {
+    color: #808080;
+    font-size: 12px
+}
+
+.advpic {
+    background: url(../images/aboutus1.jpg) center;
+    height: 252px;
+}
+
+.middle {
+    margin: 0 auto;
+    width: 1000px;
+    /*height:1163px;*/
+    position: relative;
+    clear: both;
+}
+
+.fir {
+    height: 63px;
+    background-color: #e6e6e6;
+    position: relative;
+}
+
+.fir a:hover {
+    color: black;
+}
+
+.fir p {
+    position: relative;
+    top: 28px;
+    left: 234px;
+    font-size: 12px;
+}
+
+.up {
+    background-color: #e6e6e6;
+    float: left;
+    margin-top: 43px;
+    width: 174px;
+    height: 322px;
+}
+
+.up li a {
+    font-size: 18px;
+    line-height: 46px;
+    color: black;
+}
+
+.up li {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    border-bottom: 1px solid #cccccc;
+    height: 46px;
+}
+
+.select {
+    background-color: #da251d;
+}
+
+
+
+.more {
+    width: 766px;
+    float: right;
+    padding-top: 84px;
+}
+
+.more .flash_p {
+    text-indent: 36px;
+    font-size: 16px;
+    color: #333333;
+    float: right;
+}
+
+.flash {
+    border-bottom: 1px solid #cccccc;
+
+}
+
+.flash p {
+    font-size: 16px;
+    color: black;
+    margin-top: 80px;
+    font-weight: bold;
+    float: left;
+}
+
+.videos {
+    float: right;
+    margin-top:40px;
+    margin-bottom: 50px;
+    height: 340px;
+    width: 560px;
+}
+
+.list_l {
+    padding-top: 28px;
+    position: relative;
+}
+
+.list_l li {
+    list-style-position: inside;
+    list-style-image: url(../images/round.png);
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #1a1a1a;
+}
+.footer{
+    margin-top: 104px;
+}

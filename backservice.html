@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css">
+    <link rel="stylesheet" type="text/css" href="css/zoneinfor.css">
+    <link rel="stylesheet" type="text/css" href="css/productshow.css">
+    <link rel="stylesheet" type="text/css" href="css/backservice.css">
+    <title>售后服务</title>
+</head>
+
+<body>
+    <div class=".contain">
+        <!-- 顶栏 -->
+        <div class="first">
+            <div class="main">
+                <div class="logo"></div>
+                <div class="rf">
+                    <div class="telephone"></div>
+                    <p class="p1">全国客服热线</p>
+                    <p class="p2">400-627-8627</p>
+                </div>
+            </div>
+        </div>
+        <!-- 顶栏结束 -->
+        <!-- 第二栏 -->
+        <div class="second">
+            <div class="main">
+                <ul class="nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="advertage.html">君雀优势</a></li>
+                    <li><a href="productshow.html">产品展示</a></li>
+                    <li><a href="combine.html">招商加盟</a></li>
+                    <li><a href="backservice.html" style="color:red;">售后服务</a></li>
+                    <li><a href="zoneinfornmation.html">行业资讯</a></li>
+                    <li><a href="about us.html">关于我们</a></li>
+                </ul>
+                <!-- 搜索框 -->
+                <div class="search">
+                    <input type="text" />
+                    <img src="images/fangdajing.png" width="18" height="18" alt="search">
+                </div>
+                <!-- 搜索框 结束-->
+            </div>
+        </div>
+        <!-- 第二栏结束 -->
+        <!-- 长图 -->
+        <div class="advpic" style="background: url(images/backservice.jpg) center;
+  height:252px;"></div>
+        <!-- 中部 -->
+        <div class="middle" id="mid">
+            <div class="fir">
+                <div style="position:absolute;top:-63px;left:0;height:126px;width:176px;background:url(images/backservicesmall.jpg);"></div>
+                <p>当前位置：<a href="index.html">首页</a> > <a href="backservice.html">售后服务</a> </p>
+            </div>
+            <!-- 左列表 -->
+            <ul class="up">
+                <li class="select"><a href="javascript:void(0);">保修条款</a></li>
+                <li><a href="javascript:void(0);">保养提示</a></li>
+                <li><a href="javascript:void(0);">安全提示</a></li>
+                <li><a href="javascript:void(0);">会员条款</a></li>
+            </ul>
+            <script src="js/jquery.min.js"></script>
+            <script>
+             $(document).ready(function() {
+                $(" .up li").mouseover(function() {
+                    $("li").siblings().removeClass("select");
+                    $(this).addClass("select").find("a").css("color","white");
+                    $(this).siblings().find("a").css("color","black");
+
+                });
+            });
+            </script>
+            <!-- 左列表结束 -->
+            <!-- 右边 -->
+            <div class="companynews">
+                <img src="images/back.jpg" alt="">
+                <div class="payfree">
+                    <p>1、有限保修条款：</p>
+                    <ul class="oneItem">
+                        <li>自售出之日起，君雀系列麻将机保修一年。保修期满后将根据客户的要求实行有偿服务。
+                        </li>
+                        <li>客户购机时须填写保修凭证（一式三联）并保留保修凭证的“客户留存联”，保修时须出示保修凭证，以确认产品保修期仍然有效。</li>
+                        <li>在保修期内凡属产品本身质量引起的故障，客户凭购机凭证和保修凭证到当地的销售服务商处实行免费修理。</li>
+                        <li>客户因遗失保修凭证无法证明产品保修期限的，则按产品出厂日期推算保修有效期。</li>
+                        <li>对于属非保修范围的产品将实行收费服务，收费项目为：修理费+配件费。</li>
+                        <li>麻将牌、外框、台面绒布属易耗品，如需要维修更换则费用由客户自理。</li>
+                    </ul>
+                    <p>2、非保修范围，实行有偿服务：</p>
+                    <ol class="twoItem">
+                        <li>超过保修有效期的。</li>
+                        <li>保修凭证上填写的内容与所修理的机器不符或私自涂改的。</li>
+                        <li>产品机身编号被更改或去除的。</li>
+                        <li>客户因搬运、安装、使用、维护、保管不当而造成损坏的。</li>
+                        <li>自己修理、改装或非本公司授权人员拆动修理造成损坏的。</li>
+                        <li>因产品使用环境条件，如电源、温度、湿度、等非本公司所能控制的因素引起的一切损坏和损失。</li>
+                        <li>因不可抗力造成损坏的。</li>
+                    </ol>
+                </div>
+            </div>
+            <!-- 右部结束 -->
+            <div style="clear:both"></div>
+        </div>
+        <!-- 中部 结束-->
+        <!-- footer -->
+        <div class="footer">
+            <div class="border_nav">
+                <ul class="top_nav">
+                    <li><a href="javascript:void(0);">首页</a></li>
+                    <li><a href="javascript:void(0);">关于我们</a></li>
+                    <li><a href="javascript:void(0);">产品展示</a></li>
+                    <li><a href="javascript:void(0);">新闻资讯</a></li>
+                    <li><a href="javascript:void(0);">全国招商</a></li>
+                    <li><a href="javascript:void(0);">联系方式</a></li>
+                    <li><a href="javascript:void(0);">售后服务</a></li>
+                    <li style="border:0;"><a href="javascript:void(0);">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <p>杭州君雀机电有限公司</p>
+                <ul class="iron">
+                    <li class="i1" style="background:url(images/littleicon_03.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i2" style="background:url(images/littleicon_06.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i3" style="background:url(images/littleicon_08.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i4" style="background:url(images/littleicon_10.png) no-repeat center;width:18px;height:14px;"></li>
+                </ul>
+                <ol class="address">
+                    <li>地址: 杭州市萧山区宁国镇经济开发区</li>
+                    <li>全国客服热线： 400-627-8627</li>
+                    <li>电话: 15057181911</li>
+                    <li>传真: 0571-82735581</li>
+                </ol>
+                <ul class="banqun">
+                    <li><a href="index.html">COPYRIGHT © 上海君雀实业有限公司</a></li>
+                    <li><a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=DGVGXyJhgNhvZxDkfthd3k32V9Q3pywQ7VJnWR6cGn076yzJbv0n!-1385279581" target="_blank">浙ICP备10201382号-2</a></li>
+                    <li><a href="http://www.5iss.cc/" target="_blank">技术支持：云S-商帅科技</a></li>
+                </ul>
+                <div class="erweima"></div>
+            </div>
+        </div>
+        <!-- footer end -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+.companynews {
+    width: 765px;
+    float: right;
+}
+
+.date li {
+    height: 51px;
+    border-bottom: 1px dashed #e6e6e6;
+    margin-bottom: 46px;
+    position: relative;
+}
+
+.date li div {
+    float: left;
+    width: 106px;
+    height: 32px;
+    color: 808080;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.date li p {
+    font-size: 16px;
+    margin-left: 136px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.date li span {
+    float: right;
+    margin-top: -32px;
+    margin-right: 20px;
+}
+
+.date li span .redround {
+    background: url(../images/jiantouyuan.png) no-repeat;
+    width: 23px;
+    height: 23px;
+    border: 0;
+    padding: 20px 5px;
+}
+
+.date li a {
+    text-align: center;
+    line-height: 23px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.turnpage {
+    height: 125px;
+}
+
+.turnpage p {
+    float: left;
+}
+
+.turnpage ol {
+    margin-top: 100px;
+    margin-left: 485px;
+}
+
+.turnpage ol li {
+    float: left;
+    margin-right: 6px;
+    background-color: #e6e6e6;
+    padding: 5px;
+    color: #333333;
+}
+
+.turnpage ol li:hover {
+    background-color: #da251d;
+}
+
+label {
+    text-align: center;
+    line-height: 27px;
+}
+
+
+/*.footer{
+  position: ;
+}*/

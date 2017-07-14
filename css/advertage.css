@@ -1,0 +1,63 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    color: #808080;
+    height: 1000px;
+    font-size: 12px;
+}
+
+a {
+    color: #808080;
+    font-size: 12px
+}
+
+
+
+.advpic {
+    background: url(../images/longpic2.jpg) center;
+    height: 252px;
+}
+
+.middle {
+    margin: 0 auto;
+    width: 1000px;
+    position: relative;
+}
+
+.first {
+    height: 63px;
+    background-color: #e6e6e6;
+    position: relative;
+}
+
+.first p {
+    position: relative;
+    top: 28px;
+    left: 234px;
+    font-size: 12px;
+}
+
+.first a:hover {
+    color: black;
+}
+
+.ircon {
+    width: 766px;
+    overflow: hidden;
+    float: right;
+    padding-top: 67px;
+}
+
+.ircon .top li {
+    float: left;
+}
+
+
+.footer{
+	margin-top:100px;
+}

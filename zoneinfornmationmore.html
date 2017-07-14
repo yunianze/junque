@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css">
+    <link rel="stylesheet" type="text/css" href="css/zoneinfor.css">
+    <link rel="stylesheet" type="text/css" href="css/zoneinformore.css">
+    <title>行业资讯详情</title>
+</head>
+
+<body>
+    <div class=".contain">
+        <!-- 顶栏 -->
+        <div class="first">
+            <div class="main">
+                <div class="logo"></div>
+                <div class="rf">
+                    <div class="telephone"></div>
+                    <p class="p1">全国客服热线</p>
+                    <p class="p2">400-627-8627</p>
+                </div>
+            </div>
+        </div>
+        <!-- 顶栏结束 -->
+        <!-- 第二栏 -->
+        <div class="second">
+            <div class="main">
+                <ul class="nav">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="advertage.html">君雀优势</a></li>
+                    <li><a href="productshow.html">产品展示</a></li>
+                    <li><a href="combine.html">招商加盟</a></li>
+                    <li><a href="backservice.html">售后服务</a></li>
+                    <li><a href="zoneinfornmation.html" style="color:red;">行业资讯</a></li>
+                    <li><a href="about us.html">关于我们</a></li>
+                </ul>
+                <!-- 搜索框 -->
+                <div class="search">
+                    <input type="text" />
+                    <img src="images/fangdajing.png" width="18" height="18" alt="search">
+                </div>
+                <!-- 搜索框 结束-->
+            </div>
+        </div>
+        <!-- 第二栏结束 -->
+        <!-- 长图 -->
+        <div class="advpic" style="background: url(images/zoneinfor.jpg) center;
+  height:252px;"></div>
+        <!-- 长图 结束-->
+        <div class="middle">
+            <div class="fir">
+                <div style="position:absolute;top:-63px;left:0;height:126px;width:176px;background:url(images/zoneinfor2.jpg);  
+  "></div>
+                <p>当前位置：<a href="index.html">首页</a> > <a href="">行业资讯</a> </p>
+            </div>
+            <!-- 左图片 -->
+            <ul class="up" style="float:left;">
+                <li class="select"><a href="javascript:void(0);">公司新闻</a></li>
+                <li><a href="javascript:void(0);">行业动态</a></li>
+            </ul>
+            <script src="js/jquery.min.js"></script>
+            <script>
+            $(document).ready(function() {
+                $(" .up li").mouseover(function() {
+                    $("li").siblings().removeClass("select");
+                    $(this).addClass("select").find("a").css("color","white");
+                    $(this).siblings().find("a").css("color","black");
+
+                });
+            });
+            </script>
+            <!-- 左图片结束 -->
+            <div class="content">
+                <div class="xuanchuan">
+                    <h2 style="color:#333333;">君雀2015宣传资料</h2>
+                    <p>更新日期：2015-07-02</p>
+                </div>
+                <img src="images/zonemore.jpg" alt="">
+                <div class="turnm">
+                </div>
+                <div class="turnbutton" style="border-top:1px solid #333333;border-bottom:1px solid #333333;height:70px;position:relative;">
+                    <span style="background:url(images/turnleft.png) no-repeat; width:68px;height:11px;display:block;position:absolute;top:29px;left:279px;"></span>
+                    <span style="background:url(images/turnright.png) no-repeat; width:68px;height:11px;display:block;position:absolute;top:29px;right:279px;"></span>
+                </div>
+                <div id="il" style="height:293px;position:relative;">
+                    <ul class="hehe">
+                        <li><a href="">上一篇：无</a></li>
+                        <li><a href="">下一篇：君雀专用底脚包装箱</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <!-- footer -->
+        <div class="fot">
+            <div class="border_nav">
+                <ul class="top_nav">
+                    <li><a href="javascript:void(0);">首页</a></li>
+                    <li><a href="javascript:void(0);">关于我们</a></li>
+                    <li><a href="javascript:void(0);">产品展示</a></li>
+                    <li><a href="javascript:void(0);">新闻资讯</a></li>
+                    <li><a href="javascript:void(0);">全国招商</a></li>
+                    <li><a href="javascript:void(0);">联系方式</a></li>
+                    <li><a href="javascript:void(0);">售后服务</a></li>
+                    <li style="border:0;"><a href="javascript:void(0);">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="main">
+                <p>杭州君雀机电有限公司</p>
+                <ul class="iron">
+                    <li class="i1" style="background:url(images/littleicon_03.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i2" style="background:url(images/littleicon_06.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i3" style="background:url(images/littleicon_08.png) no-repeat center;width:18px;height:14px;"></li>
+                    <li class="i4" style="background:url(images/littleicon_10.png) no-repeat center;width:18px;height:14px;"></li>
+                </ul>
+                <ol class="address">
+                    <li>地址: 杭州市萧山区宁国镇经济开发区</li>
+                    <li>全国客服热线： 400-627-8627</li>
+                    <li>电话: 15057181911</li>
+                    <li>传真: 0571-82735581</li>
+                </ol>
+                <ul class="banqun">
+                    <li><a href="index.html">COPYRIGHT © 上海君雀实业有限公司</a></li>
+                    <li><a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=DGVGXyJhgNhvZxDkfthd3k32V9Q3pywQ7VJnWR6cGn076yzJbv0n!-1385279581" target="_blank">浙ICP备10201382号-2</a></li>
+                    <li><a href="http://www.5iss.cc/" target="_blank">技术支持：云S-商帅科技</a></li>
+                </ul>
+                <div class="erweima"></div>
+            </div>
+        </div>
+        <!-- footer end -->
+    </div>
+</body>
+
+</html>
